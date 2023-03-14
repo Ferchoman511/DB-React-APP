@@ -7,7 +7,7 @@ const MensScreen = () => {
 
   return (
     <div className="container mt-3">
-      <h1>Mens</h1>
+      <h1>Men</h1>
       <hr />
       <div className="row">
         {men.map((man) => (
