@@ -4,7 +4,7 @@ import { Characters } from "../models/Characters";
 const WomensScreen = () => {
   const women = Characters.filter((el) => el.type === "m");
   return (
-    <div>
+    <div className="container mt-3">
       <h1>Womens</h1>
       <hr />
       <div className="row">

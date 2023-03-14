@@ -37,7 +37,7 @@ const Navbar = () => {
                 className="nav-link"
                 aria-current="page"
               >
-                Mens
+                Men
               </NavLink>
               {/* <a className="nav-link active" aria-current="page" href="/men">
                 Men
@@ -50,7 +50,7 @@ const Navbar = () => {
                 className="nav-link"
                 aria-current="page"
               >
-                Womens
+                Women
               </NavLink>
               {/* <a className="nav-link active" aria-current="page" href="/women"> */}
               {/* Women

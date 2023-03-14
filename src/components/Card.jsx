@@ -11,7 +11,7 @@ const Card = ({ name, type, id }) => {
         width: 200,
       }}
     >
-      <img className="cad-img-top" src={path} alt={id} />
+      <img loading="lazy" className="cad-img-top" src={path} alt={id} />
       <div className="card-body">
         <h3 className="card-title">{name}</h3>
         <p className="card-text">
